@@ -1,6 +1,6 @@
 import { Footer, Navbar } from '../components';
 
-const NotFound = () => {
+const GreaseSpecs = () => {
   return (
     <>
       <Navbar />
@@ -12,4 +12,4 @@ const NotFound = () => {
   );
 };
 
-export default NotFound;
+export default GreaseSpecs;

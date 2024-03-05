@@ -1,5 +1,15 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import { About, Bulletin, Careers, Contact, Home, NotFound, PrivacyPolicy, Services } from './pages';
+import {
+  About,
+  Bulletin,
+  Careers,
+  Contact,
+  Home,
+  NotFound,
+  PrivacyPolicy,
+  Services,
+  TermsAndConditions,
+} from './pages';
 
 const App = () => {
   return (
@@ -30,10 +40,17 @@ const App = () => {
             path='/contact'
             element={<Contact />}
           />
-
           <Route
             path='/privacy-policy'
             element={<PrivacyPolicy />}
+          />
+          <Route
+            path='/terms-and-conditions'
+            element={<TermsAndConditions />}
+          />
+          <Route
+            path='/grease-specs'
+            element={<TermsAndConditions />}
           />
           <Route
             path='/*'

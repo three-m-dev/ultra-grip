@@ -50,7 +50,7 @@ const Footer = () => {
               <ul className='text-gray-200'>
                 <li className='mb-4'>
                   <Link
-                    to='https://www.facebook.com/threemtoolandmachineinc'
+                    to='https://www.facebook.com/ultragripinternational'
                     target='blank'
                     className='hover:underline '>
                     Facebook
@@ -58,19 +58,19 @@ const Footer = () => {
                 </li>
                 <li className='mb-4'>
                   <Link
-                    to='https://www.linkedin.com/company/three-m-tool-&-machine-inc'
+                    to='https://www.linkedin.com/company/ultra-grip-international'
                     className='hover:underline'>
                     Linkedin
                   </Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link
                     to='https://www.indeed.com/cmp/Three-M-Tool-&-Machine'
                     target='blank'
                     className='hover:underline'>
                     Indeed
                   </Link>
-                </li>
+                </li> */}
               </ul>
             </div>
             <div>
@@ -84,18 +84,17 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li className='mb-4'>
-                  <a
-                    href='#'
+                  <Link
+                    to='/terms-and-conditions'
                     className='hover:underline'>
                     Terms &amp; Conditions
-                  </a>
+                  </Link>
                 </li>
                 <li>
                   <Link
-                    to='/iso-9001-2015-certificate-of-registration.pdf'
-                    target='blank'
+                    to='/grease-specs'
                     className='hover:underline'>
-                    ISO 9001
+                    Grease Specs
                   </Link>
                 </li>
               </ul>
@@ -110,7 +109,7 @@ const Footer = () => {
             <Link
               to='/'
               className='hover:underline'>
-              Three M Tool & Machine™
+              Ultra Grip International™
             </Link>
             . All Rights Reserved.
           </span>
