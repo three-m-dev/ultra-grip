@@ -4,61 +4,73 @@ const ProductGrid = () => {
   const products = [
     {
       title: 'BALL-GRIP™ PULL DOWN POWER CHUCK',
+      path: '/products/universal-ball-grip-chuck',
       imageOne: '',
       imageTwo: '',
     },
     {
       title: 'SLIDING WEDGE CHUCK',
+      path: '',
       imageOne: '',
       imageTwo: '',
     },
     {
       title: 'ULTRA-LOCK COLLET ARBORS',
+      path: '',
       imageOne: '',
       imageTwo: '',
     },
     {
       title: 'COLLET CHUCK',
+      path: '',
       imageOne: '',
       imageTwo: '',
     },
     {
       title: 'DIAPHRAGM CHUCK',
+      path: '',
       imageOne: '',
       imageTwo: '',
     },
     {
       title: 'FACE CLAMPING CHUCK',
+      path: '',
       imageOne: '',
       imageTwo: '',
     },
     {
       title: 'SLIDING JAW CHUCK',
+      path: '',
       imageOne: '',
       imageTwo: '',
     },
     {
       title: 'COUNTER CENTRIFUGAL SLIDING JAW CHUCK',
+      path: '',
       imageOne: '',
       imageTwo: '',
     },
     {
       title: 'NON DEFORMING PIN ARBOR',
+      path: '',
       imageOne: '',
       imageTwo: '',
     },
     {
       title: 'HOBBING & SHAVING ARBORS',
+      path: '',
       imageOne: '',
       imageTwo: '',
     },
     {
       title: 'RETRACTABLE DRIVER CHUCK',
+      path: '',
       imageOne: '',
       imageTwo: '',
     },
     {
       title: 'ACCESSORIES',
+      path: '',
       imageOne: '',
       imageTwo: '',
     },
@@ -75,6 +87,7 @@ const ProductGrid = () => {
           {products.map((product) => (
             <Card
               title={product.title}
+              path={product.path}
               imageOne={product.imageOne}
               imageTwo={product.imageTwo}
             />

@@ -45,7 +45,7 @@ const ContactForm = () => {
               type='email'
               id='email'
               onChange={handleChange}
-              className='shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5'
+              className='shadow-md bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5'
               placeholder='name@company.com'
               required
             />
@@ -60,7 +60,7 @@ const ContactForm = () => {
               type='text'
               id='subject'
               onChange={handleChange}
-              className='block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500'
+              className='block p-3 w-full text-sm text-gray-900 bg-gray-50 border border-gray-300 shadow-md focus:ring-primary-500 focus:border-primary-500'
               placeholder='Let us know how we can help you'
               required
             />
@@ -75,12 +75,12 @@ const ContactForm = () => {
               id='message'
               rows={6}
               onChange={handleChange}
-              className='block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500'
+              className='block p-2.5 w-full text-sm text-gray-900 bg-gray-50 shadow-md border border-gray-300 focus:ring-primary-500 focus:border-primary-500'
               placeholder='Leave a comment...'></textarea>
           </div>
           <button
             type='submit'
-            className='text-white bg-primary hover:bg-white hover:text-primary border-2 border-primary transition ease-in-out duration-300 focus:outline-none rounded px-3 py-1.5 text-center flex items-center uppercase font-semibold'>
+            className='text-white bg-primary hover:bg-white hover:text-primary border-2 border-primary transition ease-in-out duration-300 focus:outline-none px-3 py-1.5 text-center flex items-center uppercase font-semibold'>
             Send message
           </button>
         </form>
@@ -88,7 +88,7 @@ const ContactForm = () => {
       <div className=' mx-auto max-w-screen-xl mb-16'>
         <div className='flex flex-col gap-8 md:flex-row'>
           <div className='flex w-full flex-col items-center px-4 md:px-8'>
-            <div className='mb-4 rounded border-2 border-primary bg-white p-2 text-primary'>
+            <div className='mb-4 border-2 border-primary bg-white p-2 text-primary'>
               <svg
                 xmlns='http://www.w3.org/2000/svg'
                 fill='none'
@@ -110,7 +110,7 @@ const ContactForm = () => {
           </div>
 
           <div className='flex w-full flex-col items-center px-4 md:px-8'>
-            <div className='mb-4 rounded border-2 border-primary bg-white p-2 text-primary'>
+            <div className='mb-4 border-2 border-primary bg-white p-2 text-primary'>
               <svg
                 xmlns='http://www.w3.org/2000/svg'
                 fill='none'
@@ -139,7 +139,7 @@ const ContactForm = () => {
           </div>
 
           <div className='flex w-full flex-col items-center px-4 md:px-8'>
-            <div className='mb-4 rounded border-2 border-primary bg-white p-2 text-primary'>
+            <div className='mb-4 border-2 border-primary bg-white p-2 text-primary'>
               <svg
                 xmlns='http://www.w3.org/2000/svg'
                 fill='none'

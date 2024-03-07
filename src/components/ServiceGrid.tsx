@@ -5,6 +5,7 @@ const ServiceGrid = () => {
     {
       title: 'Engineering & Design',
       description: '',
+      path: '/services/engineering-and-design',
       imageOne:
         'https://forum.langmuirsystems.com/uploads/db6772/original/3X/4/e/4e40068bfd33c48582022e2cf48f5d8b11de4084.jpeg',
       imageTwo: 'https://zeropointautomation.com/cdn/shop/collections/Dovetail_Product_Images.jpg?v=1694983980',
@@ -12,12 +13,14 @@ const ServiceGrid = () => {
     {
       title: 'Repairs & Rebuilds',
       description: '',
+      path: '/services/repairs-and-rebuilds',
       imageOne: '/images/services/chuck_repair_before.jpg',
       imageTwo: '/images/services/chuck_repair_after.jpg',
     },
     {
       title: 'Scheduled Maintenance',
       description: '',
+      path: '/services/scheduled-maintenance',
       imageOne: 'https://www.3erp.com/wp-content/uploads/2020/01/CNC-machine-1-1170x778.jpg',
       imageTwo: 'https://www.forkardt.com/wp-content/uploads/Forkardt_Service-500x500_3-465x465.jpg',
     },
@@ -36,6 +39,7 @@ const ServiceGrid = () => {
           {services.map((service) => (
             <Card
               title={service.title}
+              path={service.path}
               imageOne={service.imageOne}
               imageTwo={service.imageTwo}
             />

@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 
 type CardProps = {
   title: string;
+  path: string;
   imageOne: string;
   imageTwo: string;
 };
@@ -9,7 +10,7 @@ type CardProps = {
 const Card = (props: CardProps) => {
   return (
     <Link
-      to='/'
+      to={props.path}
       className='group block overflow-hidden bg-gray-200 shadow-lg'>
       <div className='relative aspect-square flex items-center justify-center overflow-clip'>
         <img
