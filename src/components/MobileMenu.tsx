@@ -7,7 +7,7 @@ type Props = {
 
 const MobileMenu = (props: Props) => {
   return (
-    <div className='fixed left-0 top-0 z-50 h-full w-full overflow-y-auto bg-white'>
+    <div className='fixed left-0 top-0 z-50 h-screen w-full overflow-y-auto bg-white flex flex-col'>
       <div className='flex w-full justify-end p-4'>
         <button
           onClick={props.toggleMenu}
@@ -75,6 +75,13 @@ const MobileMenu = (props: Props) => {
             onClick={props.toggleMenu}
             className='text-2xl'>
             Bulletin
+          </Link>
+        </li>
+        <li>
+          <Link
+            to='/contact'
+            className='text-white bg-primary hover:bg-white hover:text-primary border-2 border-primary transition ease-in-out duration-300 focus:outline-none px-3 py-1.5 text-center flex items-center uppercase font-semibold'>
+            Contact
           </Link>
         </li>
       </ul>

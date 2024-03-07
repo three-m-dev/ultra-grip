@@ -29,11 +29,11 @@ const Navbar = () => {
               alt='Ultra Grip Logo'
             />
           </Link>
-          <div className='flex gap-8'>
+          <div className='flex gap-2 lg:gap-4'>
             <div className='flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse'>
               <Link
                 to='/contact'
-                className='text-white bg-primary hover:bg-white hover:text-primary border-2 border-primary transition ease-in-out duration-300 focus:outline-none px-3 py-1.5 text-center flex items-center uppercase font-semibold'>
+                className='text-white bg-primary hover:bg-white hover:text-primary border-2 border-primary transition ease-in-out duration-300 focus:outline-none px-3 py-1.5 text-center md:flex items-center uppercase font-semibold hidden'>
                 Contact
               </Link>
               <button
@@ -63,7 +63,7 @@ const Navbar = () => {
             <div
               className='items-center justify-between hidden w-full md:flex md:w-auto md:order-1'
               id='navbar-sticky'>
-              <ul className='flex flex-col p-4 md:p-0 mt-4 font-semibold border border-gray-100 bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white uppercase'>
+              <ul className='flex flex-col p-4 md:p-0 mt-4 font-semibold border border-gray-100 bg-gray-50 gap-2 lg:gap-4 text-sm lg:text-md rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white uppercase transition-all ease-in-out'>
                 <li>
                   <NavLink
                     to='/'

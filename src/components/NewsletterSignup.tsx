@@ -3,7 +3,7 @@ const NewsletterSignup = () => {
     <section className='bg-white'>
       <div className='py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6'>
         <div className='mx-auto max-w-screen-md sm:text-center'>
-          <h2 className='mb-4 text-3xl text-gray-900 sm:text-5xl font-bebas tracking-wider'>Join Our Mailing List</h2>
+          <h2 className='mb-4 text-4xl text-gray-900 sm:text-5xl font-bebas tracking-wider'>Join Our Mailing List</h2>
           <p className='mx-auto mb-8 max-w-2xl font-light text-gray-500 md:mb-12 sm:text-xl'>
             Stay up to date with the roadmap progress, announcements and exclusive discounts feel free to sign up with
             your email.

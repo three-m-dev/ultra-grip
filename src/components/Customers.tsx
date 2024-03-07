@@ -2,7 +2,7 @@ const Customers = () => {
   return (
     <section className='bg-primary'>
       <div className='py-8 lg:py-16 mx-auto max-w-screen-xl px-4'>
-        <h2 className='text-3xl sm:text-5xl font-bebas tracking-wider mb-8 text-white text-center'>
+        <h2 className='text-4xl sm:text-5xl font-bebas tracking-wider mb-8 text-white text-center'>
           You’ll be in good company
         </h2>
         <div className='grid grid-cols-2 gap-8 sm:gap-12 md:grid-cols-3 lg:grid-cols-6 text-gray-200'>

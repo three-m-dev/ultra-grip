@@ -5,7 +5,7 @@ const Hero = () => {
   const [itemIndex, setItemIndex] = useState(0);
   const items = [
     {
-      title: 'Innovation in Manufacturing',
+      title: 'Precision at Every Scale',
       cta: 'Learn More',
       url: '/services',
       image: 'https://as1.ftcdn.net/v2/jpg/03/26/28/70/1000_F_326287003_HLZJZhT7l4v76OaqfMd1rjQDHldb0Wm8.jpg',
@@ -13,7 +13,7 @@ const Hero = () => {
       align: 'left',
     },
     {
-      title: 'Seamless Production Flow',
+      title: 'Innovative Solutions, Unmatched Quality',
       cta: 'Learn More',
       url: '/services',
       image: 'https://as2.ftcdn.net/v2/jpg/02/76/46/27/1000_F_276462792_C2d0t1ajrCdoBLG8jqXmqS9kqNqrbEbe.jpg',
@@ -22,10 +22,11 @@ const Hero = () => {
       align: 'right',
     },
     {
-      title: 'Quality Assurance in Every Build',
+      title: 'Engineering Success Together',
       cta: 'Learn More',
       url: '/services',
-      image: '/images/caliper-on-print.jpg',
+      image:
+        'https://www.sme.org/globalassets/sme.org/technologies/articles/2021/01---january/mod-workholding-lead-768x432.jpg',
       imagePosition: 'object-center',
       alt: '',
       align: 'left',
@@ -49,7 +50,7 @@ const Hero = () => {
   };
 
   return (
-    <div className='relative flex h-[65vh] max-w-screen items-center justify-center'>
+    <div className='relative flex h-[65vh] max-w-screen items-start sm:items-center justify-center'>
       <img
         src={items[itemIndex].image}
         alt={items[itemIndex].alt}
@@ -57,17 +58,17 @@ const Hero = () => {
       />
       <div className='absolute z-10 h-full w-full bg-black opacity-60'></div>
 
-      <div className='relative z-20 mx-auto flex w-full max-w-screen-xl justify-center lg:justify-start'>
+      <div className='relative z-20 mx-auto flex w-full max-w-screen-xl justify-center lg:justify-start mt-20'>
         <div
-          className={`flex flex-col items-center gap-8 sm:w-2/5 ${items[itemIndex].align === 'right' && 'lg:ml-auto'} ${
+          className={`flex flex-col items-center gap-8 px-12 w-full sm:w-1/2 ${items[itemIndex].align === 'right' && 'lg:ml-auto'} ${
             items[itemIndex].align === 'center' && 'lg:mx-auto'
           }`}>
-          <h1 className='text-center font-bebas text-3xl md:text-5xl uppercase tracking-wider text-white'>
+          <h1 className='text-4xl text-white sm:text-5xl font-bebas tracking-wider text-center'>
             {items[itemIndex].title}
           </h1>
           <Link
             to={items[itemIndex].url}
-            className='border-2 border-white px-4 py-2 text-sm font-bold uppercase tracking-wider text-white transition-all duration-300 hover:border-primary hover:bg-primary'>
+            className='text-white bg-transparent hover:bg-white hover:text-primary border-2 border-white transition ease-in-out duration-300 focus:outline-none px-3 py-1.5 text-center flex items-center uppercase font-semibold'>
             {items[itemIndex].cta}
           </Link>
         </div>
