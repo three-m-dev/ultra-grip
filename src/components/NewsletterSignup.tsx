@@ -27,7 +27,7 @@ const NewsletterSignup = () => {
                   </svg>
                 </div>
                 <input
-                  className='block p-2 pl-10 w-full text-sm text-gray-900 bg-gray-50 rounded border-2 border-gray-300 sm:rounded-none sm:rounded-l focus:border-primary outline-none'
+                  className='block p-2 pl-10 w-full text-sm text-gray-900 bg-gray-50 border-2 border-gray-300 focus:border-primary outline-none'
                   placeholder='Enter your email'
                   type='email'
                   id='email'
@@ -37,7 +37,7 @@ const NewsletterSignup = () => {
               <div>
                 <button
                   type='submit'
-                  className='text-white bg-primary hover:bg-white hover:text-primary border-2 border-primary transition ease-in-out duration-300 focus:outline-none rounded px-3 py-1.5 text-center flex items-center uppercase font-semibold sm:rounded-l-none'>
+                  className='text-white bg-primary hover:bg-white hover:text-primary border-2 border-primary transition ease-in-out duration-300 focus:outline-none px-3 py-1.5 text-center flex items-center uppercase font-semibold sm:rounded-l-none'>
                   Subscribe
                 </button>
               </div>

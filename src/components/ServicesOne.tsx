@@ -13,7 +13,7 @@ const ServicesOne = () => {
         </div>
         <div className='space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0'>
           <div>
-            <div className='mb-4 rounded border-2 border-primary bg-white p-2 text-primary w-max'>
+            <div className='mb-4 border-2 border-primary bg-white p-2 text-primary w-max'>
               <svg
                 xmlns='http://www.w3.org/2000/svg'
                 fill='none'
@@ -39,7 +39,7 @@ const ServicesOne = () => {
             </p>
           </div>
           <div>
-            <div className='mb-4 rounded border-2 border-primary bg-white p-2 text-primary w-max'>
+            <div className='mb-4 border-2 border-primary bg-white p-2 text-primary w-max'>
               <svg
                 xmlns='http://www.w3.org/2000/svg'
                 className='h-5 w-5'
@@ -54,7 +54,7 @@ const ServicesOne = () => {
             </p>
           </div>
           <div>
-            <div className='mb-4 rounded border-2 border-primary bg-white p-2 text-primary w-max'>
+            <div className='mb-4 border-2 border-primary bg-white p-2 text-primary w-max'>
               <svg
                 xmlns='http://www.w3.org/2000/svg'
                 className='h-5 w-5'
@@ -69,7 +69,7 @@ const ServicesOne = () => {
             </p>
           </div>
           <div>
-            <div className='mb-4 rounded border-2 border-primary bg-white p-2 text-primary w-max'>
+            <div className='mb-4 border-2 border-primary bg-white p-2 text-primary w-max'>
               <svg
                 xmlns='http://www.w3.org/2000/svg'
                 className='h-5 w-5'
@@ -84,7 +84,7 @@ const ServicesOne = () => {
             </p>
           </div>
           <div>
-            <div className='mb-4 rounded border-2 border-primary bg-white p-2 text-primary w-max'>
+            <div className='mb-4 border-2 border-primary bg-white p-2 text-primary w-max'>
               <svg
                 xmlns='http://www.w3.org/2000/svg'
                 className='h-5 w-5'
@@ -99,7 +99,7 @@ const ServicesOne = () => {
             </p>
           </div>
           <div>
-            <div className='mb-4 rounded border-2 border-primary bg-white p-2 text-primary w-max'>
+            <div className='mb-4 border-2 border-primary bg-white p-2 text-primary w-max'>
               <svg
                 xmlns='http://www.w3.org/2000/svg'
                 className='h-5 w-5'

@@ -10,7 +10,7 @@ const Footer = () => {
           <div className='mb-6 md:mb-0'>
             <Link
               to='/'
-              className='flex items-center bg-white p-2 pr-0 rounded justify-center md:justify-start'>
+              className='flex items-center bg-white p-2 pr-0 justify-center md:justify-start'>
               <img
                 src='/images/ultra-grip-logo.png'
                 className='mr-3 h-10'
@@ -63,14 +63,6 @@ const Footer = () => {
                     Linkedin
                   </Link>
                 </li>
-                {/* <li>
-                  <Link
-                    to='https://www.indeed.com/cmp/Three-M-Tool-&-Machine'
-                    target='blank'
-                    className='hover:underline'>
-                    Indeed
-                  </Link>
-                </li> */}
               </ul>
             </div>
             <div>
