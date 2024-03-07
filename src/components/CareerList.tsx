@@ -120,7 +120,7 @@ const CareerList = (props: Props) => {
                   </div>
                 </div>
                 <Link
-                  className='border-2 border-primary px-4 py-2 text-sm font-bold uppercase text-primary transition-all duration-500 hover:bg-primary hover:text-white md:ml-4'
+                  className='rounded border-2 border-primary px-4 py-2 text-sm font-bold uppercase text-primary transition-all duration-500 hover:bg-primary hover:text-white md:ml-4'
                   to={`/careers/` + career.id}>
                   Learn More
                 </Link>
@@ -133,7 +133,7 @@ const CareerList = (props: Props) => {
   };
 
   return (
-    <section className='bg-white'>
+    <section className='bg-white min-h-screen'>
       <div className='py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 '>
         <div className='mx-auto max-w-screen-sm text-center mb-8 lg:mb-16'>
           <h2 className='mb-4 text-3xl text-gray-900 sm:text-5xl font-bebas tracking-wider'>Career Openings</h2>
@@ -144,7 +144,7 @@ const CareerList = (props: Props) => {
         <div className='mx-auto'>
           <div className='flex flex-wrap items-center justify-center'>
             <div className='mb-4 w-full md:mb-8 md:w-1/3 md:pr-2'>
-              <div className='relative border border-gray-200 bg-white shadow'>
+              <div className='relative rounded border border-gray-200 bg-white shadow'>
                 <svg
                   className='absolute right-0 top-1/2 mr-5 -translate-y-1/2 transform'
                   width='12'
@@ -160,7 +160,7 @@ const CareerList = (props: Props) => {
                 </svg>
 
                 <select
-                  className='w-full appearance-none border-0 bg-transparent px-4 py-2 leading-6 text-gray-500 outline-none hover:cursor-pointer focus:outline-none focus:ring-2 focus:ring-primary focus:ring-opacity-50'
+                  className='w-full appearance-none rounded border-0 bg-transparent px-4 py-2 leading-6 text-gray-500 outline-none hover:cursor-pointer focus:outline-none focus:ring-2 focus:ring-primary focus:ring-opacity-50'
                   value={locationFilter}
                   onChange={handleLocationChange}>
                   <option value='All'>Location</option>
@@ -171,7 +171,7 @@ const CareerList = (props: Props) => {
               </div>
             </div>
             <div className='mb-0 w-full md:mb-8 md:w-1/3 md:pl-2'>
-              <div className='relative border border-gray-200 bg-white shadow'>
+              <div className='relative rounded border border-gray-200 bg-white shadow'>
                 <svg
                   className='absolute right-0 top-1/2 mr-5 -translate-y-1/2 transform'
                   width='12'
@@ -186,7 +186,7 @@ const CareerList = (props: Props) => {
                   />
                 </svg>
                 <select
-                  className='w-full appearance-none border-0 bg-transparent px-4 py-2 leading-6 text-gray-500 outline-none hover:cursor-pointer focus:outline-none focus:ring-2 focus:ring-primary focus:ring-opacity-50'
+                  className='w-full appearance-none rounded border-0 bg-transparent px-4 py-2 leading-6 text-gray-500 outline-none hover:cursor-pointer focus:outline-none focus:ring-2 focus:ring-primary focus:ring-opacity-50'
                   value={typeFilter}
                   onChange={handleTypeChange}>
                   <option value='All'>Type</option>

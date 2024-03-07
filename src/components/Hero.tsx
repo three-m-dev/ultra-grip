@@ -58,9 +58,9 @@ const Hero = () => {
       />
       <div className='absolute z-10 h-full w-full bg-black opacity-60'></div>
 
-      <div className='relative z-20 mx-auto flex w-full max-w-screen-xl justify-center lg:justify-start mt-20'>
+      <div className='relative z-20 mx-auto flex w-full max-w-screen-xl justify-center lg:justify-start mt-28 md:mt-0'>
         <div
-          className={`flex flex-col items-center gap-8 px-12 w-full sm:w-1/2 ${items[itemIndex].align === 'right' && 'lg:ml-auto'} ${
+          className={`flex flex-col items-center gap-8 px-12 w-full md:w-1/2 ${items[itemIndex].align === 'right' && 'lg:ml-auto'} ${
             items[itemIndex].align === 'center' && 'lg:mx-auto'
           }`}>
           <h1 className='text-4xl text-white sm:text-5xl font-bebas tracking-wider text-center'>

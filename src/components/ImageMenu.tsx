@@ -12,9 +12,9 @@ const ImageMenu = () => {
             backgroundImage: `url('https://as1.ftcdn.net/v2/jpg/06/26/65/92/1000_F_626659219_5AQy73NrVlPThEG1sdCfYNgiU9vB785Z.jpg')`,
           }}>
           <div className='absolute inset-0 bg-black bg-opacity-30 flex justify-center items-center'>
-            <span className='text-white text-3xl sm:text-5xl uppercase font-bebas tracking-wider'>
+            <h1 className='text-white text-3xl md:text-5xl uppercase font-bebas tracking-wider'>
               Services
-            </span>
+            </h1>
           </div>
         </div>
       </Link>
@@ -25,9 +25,9 @@ const ImageMenu = () => {
           className='w-full h-full bg-cover bg-center flex justify-center items-center relative'
           style={{ backgroundImage: `url('/images/jose.jpg')` }}>
           <div className='absolute inset-0 bg-black bg-opacity-30 flex justify-center items-center'>
-            <span className='text-white text-3xl sm:text-5xl uppercase font-bebas tracking-wider'>
+            <h1 className='text-white text-3xl md:text-5xl uppercase font-bebas tracking-wider'>
               Careers
-            </span>
+            </h1>
           </div>
         </div>
       </Link>
@@ -38,9 +38,9 @@ const ImageMenu = () => {
           className='w-full h-full bg-cover bg-center flex justify-center items-center relative'
           style={{ backgroundImage: `url('/images/three-m-building.jpg')` }}>
           <div className='absolute inset-0 bg-black bg-opacity-30 flex justify-center items-center'>
-            <span className='text-white text-3xl sm:text-5xl uppercase font-bebas tracking-wider'>
+            <h1 className='text-white text-3xl md:text-5xl uppercase font-bebas tracking-wider'>
               Contact
-            </span>
+            </h1>
           </div>
         </div>
       </Link>
