@@ -74,7 +74,7 @@ const Hero = () => {
       </div>
 
       <button
-        className='absolute left-0 top-1/2 z-30 -translate-y-1/2 bg-white p-2.5 text-primary opacity-25 transition-all duration-300 hover:opacity-100'
+        className='absolute left-0 top-1/2 z-30 -translate-y-1/2 bg-primary p-2.5 text-white opacity-50 transition-all duration-300 hover:opacity-100'
         onClick={handlePrevClick}>
         <svg
           xmlns='http://www.w3.org/2000/svg'
@@ -91,7 +91,7 @@ const Hero = () => {
         </svg>
       </button>
       <button
-        className='absolute right-0 top-1/2 z-30 -translate-y-1/2 bg-white p-2.5 text-primary opacity-25 transition-all duration-300 hover:opacity-100'
+        className='absolute right-0 top-1/2 z-30 -translate-y-1/2 bg-primary p-2.5 text-white opacity-50 transition-all duration-300 hover:opacity-100'
         onClick={handleNextClick}>
         <svg
           xmlns='http://www.w3.org/2000/svg'

@@ -16,4 +16,5 @@ export { default as ProductGrid } from './ProductGrid';
 export { default as ServiceGrid } from './ServiceGrid';
 export { default as ServicesOne } from './ServicesOne';
 export { default as Standards } from './Standards';
+export { default as Table } from './Table';
 export { default as Team } from './Team';

@@ -10,67 +10,78 @@ const ProductGrid = () => {
     },
     {
       title: 'SLIDING WEDGE CHUCK',
-      path: '',
+      path: '/products/universal-ball-grip-chuck',
+
       imageOne: '',
       imageTwo: '',
     },
     {
       title: 'ULTRA-LOCK COLLET ARBORS',
-      path: '',
+      path: '/products/universal-ball-grip-chuck',
+
       imageOne: '',
       imageTwo: '',
     },
     {
       title: 'COLLET CHUCK',
-      path: '',
+      path: '/products/universal-ball-grip-chuck',
+
       imageOne: '',
       imageTwo: '',
     },
     {
       title: 'DIAPHRAGM CHUCK',
-      path: '',
+      path: '/products/universal-ball-grip-chuck',
+
       imageOne: '',
       imageTwo: '',
     },
     {
       title: 'FACE CLAMPING CHUCK',
-      path: '',
+      path: '/products/universal-ball-grip-chuck',
+
       imageOne: '',
       imageTwo: '',
     },
     {
       title: 'SLIDING JAW CHUCK',
-      path: '',
+      path: '/products/universal-ball-grip-chuck',
+
       imageOne: '',
       imageTwo: '',
     },
     {
       title: 'COUNTER CENTRIFUGAL SLIDING JAW CHUCK',
-      path: '',
+      path: '/products/universal-ball-grip-chuck',
+
       imageOne: '',
       imageTwo: '',
     },
     {
       title: 'NON DEFORMING PIN ARBOR',
-      path: '',
+      path: '/products/universal-ball-grip-chuck',
+
       imageOne: '',
       imageTwo: '',
     },
     {
       title: 'HOBBING & SHAVING ARBORS',
-      path: '',
+      path: '/products/universal-ball-grip-chuck',
+
       imageOne: '',
       imageTwo: '',
     },
     {
       title: 'RETRACTABLE DRIVER CHUCK',
-      path: '',
+      path: '/products/universal-ball-grip-chuck',
+
       imageOne: '',
       imageTwo: '',
     },
     {
       title: 'ACCESSORIES',
-      path: '',
+      path: '/products/universal-ball-grip-chuck',
+
       imageOne: '',
       imageTwo: '',
     },
