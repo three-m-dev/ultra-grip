@@ -1,15 +1,14 @@
-import { Footer, Navbar, Team } from '../components';
+import { Footer, Navbar } from '../components';
 
-const About = () => {
+const Products = () => {
   return (
     <>
       <Navbar />
       <div className='mt-16'>
-        <Team />
         <Footer />
       </div>
     </>
   );
 };
 
-export default About;
+export default Products;

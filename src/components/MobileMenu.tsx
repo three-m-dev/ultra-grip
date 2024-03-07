@@ -47,6 +47,14 @@ const MobileMenu = (props: Props) => {
         </li>
         <li className='mb-2'>
           <Link
+            to='/products'
+            onClick={props.toggleMenu}
+            className='text-2xl'>
+            Products
+          </Link>
+        </li>
+        <li className='mb-2'>
+          <Link
             to='/services'
             onClick={props.toggleMenu}
             className='text-2xl'>

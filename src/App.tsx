@@ -7,6 +7,7 @@ import {
   Home,
   NotFound,
   PrivacyPolicy,
+  Products,
   Services,
   TermsAndConditions,
 } from './pages';
@@ -23,6 +24,10 @@ const App = () => {
           <Route
             path='/about'
             element={<About />}
+          />
+          <Route
+            path='/products'
+            element={<Products />}
           />
           <Route
             path='/services'

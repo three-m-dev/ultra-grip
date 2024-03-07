@@ -82,6 +82,14 @@ const Navbar = () => {
                 </li>
                 <li>
                   <NavLink
+                    to='/products'
+                    className={({ isActive }) => (isActive ? 'text-primary' : 'text-gray-400') + ''}
+                    aria-current='page'>
+                    Products
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
                     to='/services'
                     className={({ isActive }) => (isActive ? 'text-primary' : 'text-gray-400') + ''}
                     aria-current='page'>
